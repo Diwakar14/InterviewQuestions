@@ -1,0 +1,36 @@
+1. Fork and Exec and Spawn
+	Fork
+	======
+	** Fork is special case of spawn that also execte the code in shell.
+	** Fork method create a separate instance of the same application and run the code.
+	** It is useful for runing CPU intensive task that do not block event loop.
+	** It establises a communication channel on the child process and uses EventEmitter to listen for data.
+	** It return read write stream.
+	Exec
+	======
+	** It return the buffers the command generated output and return the data in the callback.
+	** It does not have input/output stream.
+	** It creates a shell to run the command.
+	Spawn
+	======
+	** It return a object 
+2. Clusture and Worker Thread
+	-- Cluster
+	 => To use cluster in nodejs application import cluster module
+	 => Cluster in nodejs is like separate instance of the node application that is used to enhance the performance of the application. With multiple cluster nodejs application can 	    handle multiple request at a time.
+	 => Cluster creates Workers threads that are responsible for handling different request, however they get separate intances of V8.
+	
+	--Worker Thead
+	 => to use worker thread import worker_thread module of nodejs.
+	 => Worker thread a like threads inside a process that can handle request separately. However they share same memory and V8 instance.
+	
+3. Promise.all, Promise.allSettled, Promise.race() Promise.any
+	- Promise.all takes an array of promises and returns a array of resolved promises. If any of the promise fails then the whole promise returns a error.
+	- Promise.allSettled taked an array of promisses and return a array of object with status which tells exactly which promise had failed otherwise it resolves other promises.
+	- Promise.race take array of promises and return only the one that is completed first.
+	- Promise.any also take array of promises but return any one that is completed.
+4. Array.shift()
+	- Remove an element from the start of the array.
+5. Thread Pool
+	- UV_THREADPOOL_SIZE
+	

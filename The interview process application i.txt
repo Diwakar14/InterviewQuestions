@@ -1,0 +1,6 @@
+The interview process application is one of the best solutions for the human resource team. The applications show what are the positions for which candidates are being hired, their profiles being uploaded and if the team has any feedback on them.  
+There are feedback columns that are filled by the human resource department so the next interviewer can be prepared with a list of specific questions for the candidate. The Application has a hire or no-hire column that makes the overall evaluation process quite convenient and easy for the people.
+
+1. Recruiter called the candidate and asked for relavant information about the experience and time to attend the interview call.
+2. Recruiter fill in all the information and initiates a message to the candidate having link to join the meeting that also get added to the calender.
+3.Recruiter is notified when the candidate has c

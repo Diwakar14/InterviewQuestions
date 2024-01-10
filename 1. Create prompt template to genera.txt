@@ -1,0 +1,2 @@
+1. Create prompt template to generate any content
+2. Use chatGPt to genereate the content
